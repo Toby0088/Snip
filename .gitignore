@@ -1,3 +1,18 @@
 # Snip
 *.tmp
 __pycache__/
+
+# 防止源码/开发文件被误提交（Snip 只发布编译好的 exe）
+*.cs
+*.csproj
+*.sln
+*.pdb
+*.ps1
+*.psm1
+.tools/
+# 运行时产生的配置与日志（不进仓库）
+Snip.config
+Snip.ini
+SnipAnno.config
+SnipSaveDir.config
+Snip.log
